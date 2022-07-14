@@ -1,0 +1,7 @@
+.canvas-component-line-ver {
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    border-right: 0.1rem dashed #87bf3b;
+}

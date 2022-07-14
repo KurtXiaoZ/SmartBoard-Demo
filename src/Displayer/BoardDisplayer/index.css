@@ -1,0 +1,58 @@
+.smart-board-className {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 7%;
+    position: relative;
+}
+
+.smart-board-className-title {
+    color: rgba(255, 255, 255, 0.6);
+    display: inline;
+}
+
+.smart-board-className-select {
+    height: 10px;
+    width: 150px;
+}
+
+.smart-board-style {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 7%;
+    position: relative;
+}
+
+.smart-board-style-title {
+    color: rgba(255, 255, 255, 0.6);
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.smart-board-alignDis {
+    margin-top: 40px;
+    margin-left: 5%;
+    width: 90%;
+    height: 7%;
+    position: relative;
+}
+
+.smart-board-alignDis-title {
+    color: rgba(255, 255, 255, 0.6);
+    display: inline;
+}
+
+.smart-board-mouseDown {
+    margin-top: 0px;
+    margin-left: 5%;
+    width: 90%;
+    height: 7%;
+    position: relative;
+}
+
+.smart-board-mouseDown-title {
+    color: rgba(255, 255, 255, 0.6);
+    display: inline;
+    margin-bottom: 10px;
+}

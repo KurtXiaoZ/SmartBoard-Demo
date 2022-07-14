@@ -1,0 +1,12 @@
+{
+    "name": "smart-board",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "props-type": "^1.0.1"
+    },
+    "main": "index.js",
+    "scripts": {
+      "test": "react-scripts test"
+    }
+}

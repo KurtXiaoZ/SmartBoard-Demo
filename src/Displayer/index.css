@@ -1,0 +1,34 @@
+.displayer {
+    background-color: rgba(55, 55, 55, 1);
+    height: 100%;
+    border-radius: 2vw;
+    color: white;
+    font-family: 'Roboto';
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.displayer-header {
+    width: 100%;
+    height: 10%;
+    min-height: 65px;
+    position: relative;
+}
+
+.displayer-header-title {
+    position: absolute;
+    top: 50%;
+    left: 2vw;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.displayer-header-separator {
+    height: 0;
+    width: 90%;
+    position: absolute;
+    bottom: 0px;
+    border: 1px solid white;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,27 @@
+.demo {
+    height: 98vh;
+    min-height: 600px;
+    width: auto;
+    margin-left: 2vw;
+    display: flex;
+}
+
+.demo-board {
+    height: 100%;
+    flex-grow: 1;
+    margin-right: 3vw;
+}
+
+.demo-displayer {
+    height: 100%;
+    width: 30%;
+    margin-right: 2vw;
+}
+
+body {
+    background-color: #000000;
+}
+
+.item-class1 {
+    
+}

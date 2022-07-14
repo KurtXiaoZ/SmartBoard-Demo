@@ -1,0 +1,32 @@
+.item-detail-container {
+    margin-top: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: fit-content;
+}
+
+.item-detail-title {
+    color: rgba(255, 255, 255, 0.6);
+    display: inline;
+}
+
+.item-position {
+    display: flex;
+}
+
+.item-position-left {
+    flex-grow: 1;
+}
+
+.item-position-top {
+    flex-grow: 1;
+}
+
+.item-detail-select {
+    height: fit-content;
+    width: 150px;
+}
+
+.bottom {
+    margin-bottom: 25px;
+}
