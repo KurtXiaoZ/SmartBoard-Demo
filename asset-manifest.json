@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SmartBoard-Demo/static/css/main.b09b30b1.css",
+    "main.js": "/SmartBoard-Demo/static/js/main.03ee0aa3.js",
+    "static/media/icon.svg": "/SmartBoard-Demo/static/media/icon.24b1b86fa19053f76f5422516766e3a4.svg",
+    "index.html": "/SmartBoard-Demo/index.html",
+    "main.b09b30b1.css.map": "/SmartBoard-Demo/static/css/main.b09b30b1.css.map",
+    "main.03ee0aa3.js.map": "/SmartBoard-Demo/static/js/main.03ee0aa3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b09b30b1.css",
+    "static/js/main.03ee0aa3.js"
+  ]
+}
