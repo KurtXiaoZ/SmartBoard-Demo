@@ -40,7 +40,10 @@ export const Board = (props) => {
                 setSelect('item1');
                 items['item1'].onMouseDownItem(event);
             }}
-            onMouseDownResizeHanlder={items['item1'].onMouseDownResizeHanlder}
+            onMouseDownResizeHanlder={(event) => {
+                setSelect('item1');
+                items['item1'].onMouseDownResizeHanlder(event);
+            }}
             onDragStart={items['item1'].onDragStart}
             onDrag={(event, data) => {
                 dispatchItems({type: 'setLeft', payload: {itemId: 'item1', content: data.x}});
@@ -76,7 +79,10 @@ export const Board = (props) => {
                 setSelect('item2');
                 items['item2'].onMouseDownItem(event);
             }}
-            onMouseDownResizeHanlder={items['item2'].onMouseDownResizeHanlder}
+            onMouseDownResizeHanlder={(event) => {
+                setSelect('item2');
+                items['item2'].onMouseDownResizeHanlder(event);
+            }}
             onDragStart={items['item2'].onDragStart}
             onDrag={(event, data) => {
                 dispatchItems({type: 'setLeft', payload: {itemId: 'item2', content: data.x}});
@@ -119,7 +125,10 @@ export const Board = (props) => {
                 setSelect('item3');
                 items['item3'].onMouseDownItem(event);
             }}
-            onMouseDownResizeHanlder={items['item3'].onMouseDownResizeHanlder}
+            onMouseDownResizeHanlder={(event) => {
+                setSelect('item3');
+                items['item3'].onMouseDownResizeHanlder(event);
+            }}
             onDragStart={items['item3'].onDragStart}
             onDrag={(event, data) => {
                 dispatchItems({type: 'setLeft', payload: {itemId: 'item3', content: data.x}});
