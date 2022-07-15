@@ -23,5 +23,14 @@ body {
 }
 
 .item-class1 {
-    
+    background: transparent;
+}
+
+.item-class2 {
+    background: transparent;
+    box-shadow: 0px 0px 30px #b3b3b3;
+}
+
+.item-class3:hover {
+    box-shadow: 0px 0px 30px #b3b3b3;
 }

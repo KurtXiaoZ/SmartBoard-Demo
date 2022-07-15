@@ -27,14 +27,47 @@
 .item-1 {
     width: 100px;
     height: 100px;
-    background-color: #f5f5f0;
-}
-
-.item-3 {
-    width: 100px;
-    height: 100px;
+    background-color: #ffb3b3;
+    border-radius: 10px;
+    color: #14141f;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: red;
+}
+
+.item-2 {
+    background-color: #99ccff;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+    border-radius: 10px;
+}
+
+.item-2>p{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.item-3 {
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc99;
+    border-radius: 10px;
+}
+
+.item-3>span {
+    display: block;
+    height: 15%;
+    margin-left: 10%;
+}
+
+.item-3>textarea {
+    height: 70%;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    resize: none;
+    user-select: none;
+    outline: none;
+    border-radius: 5px;
 }

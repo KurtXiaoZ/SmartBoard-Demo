@@ -93,23 +93,16 @@ export const Board = (props) => {
             onResizeEnd={items['item2'].onResizeEnd}
         >
             <div
-                style={{
-                    width: '100px',
-                    height: '100px',
-                    overflow: 'scroll',
-                }}
+                className='item-2'
             >
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
-                <p>row1</p>
+                <p>Item2</p>
+                <p>Item2</p>
+                <p>Item2</p>
+                <p>Item2</p>
+                <p>Item2</p>
+                <p>Item2</p>
+                <p>Item2</p>
+                <p>Item2</p>
             </div>
         </Item>
         <Item
@@ -145,7 +138,8 @@ export const Board = (props) => {
             <div
                 className='item-3'
             >
-                Item3
+                <span>Item3</span>
+                <textarea />
             </div>
         </Item>
     </SmartBoard>
